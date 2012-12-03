@@ -11,7 +11,7 @@
 
   $.fn.emoji.replace = function(){
     var key = arguments[1];
-    var url = 'https://github.com/linyows/jquery-emoji/raw/master/images/emojis';
+    var url = 'https://github.com/SCRAPTURE/jquery-emoji/raw/master/images/emojis';
     var extension = '.png';
     var src = url + '/' + key + extension;
     return '<img class="emoji" width="20" height="20" align="absmiddle" src="' + src + '" alt="' + key + '" title="' + key + '" />';
